@@ -657,7 +657,7 @@ if __name__ == "__main__":
         dataset = load_dataset("web_questions")
         mini_wq = dataset["test"][:100]
     elif args.data == "sqa":
-        sqa = load_strategyqa("./data/strategy_qa/dev.json")
+        sqa = load_strategyqa("./sqa_dev.json")
 
     # Create a sampling params object.
     sampling_params = SamplingParams(temperature=args.temprature, 
