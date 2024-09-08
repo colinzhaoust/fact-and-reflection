@@ -2,7 +2,9 @@
 This is the github repo for our ACL 2024 paper: Fact-and-Reflection (FaR) Improves Confidence Calibration of Large Language Models, [(Link)](https://aclanthology.org/2024.findings-acl.515.pdf).
 
 
-The included python file replicates the results in Section 3.4 or the paper: Generalizing to other language models, which shows how FaR shows good calibration over various open-source language models, with StrategyQA as the data and Token. Prob as the confidence extraction method.
+The included Python file replicates the results in Section 3.4 of the paper: Generalizing to other language models, which shows how FaR shows good calibration over various open-source language models, with StrategyQA as the data and Token. Prob is the confidence extraction method.
+
+Running the code mainly requires installing [vLLM](https://docs.vllm.ai/en/stable/getting_started/installation.html). Hugginface_hub is required for models with restricted usage. Do not forget to add the desired model to your token in the Hugging Face settings.
 
 The authors are working on preparing an easy-to-use github repository. Do not hesitate to send an email if you need the raw code.
 
